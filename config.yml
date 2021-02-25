@@ -1,0 +1,34 @@
+LICENSE: ""
+cPearl: true #WILL TOGGLE THAT U CAN PEARL IN COBBLE WALLS, AS FENCEGATES
+Chest-Pearl: true
+EndPortal-Pearl: true
+Bed-Pearl: true
+TalibanPearl:
+  Slabs: true
+  Stairs: true
+  Block-if-block-in-front: true
+return-pearl: true
+tp-with-taliban-disabled: true
+
+is-1dot7: true
+Anti-Glitch: true #THIS OPTION IS USED FOR DONT GET STUCK INTO BLOCKS
+
+#ITS NECESARY FOR MAKE THE PEARLS ULTRA SENSIBLES, DONT PUT 0
+timer:
+  time: 16 #SECONDS
+  send-message: true
+  message: '&cYou cannot use this for another &l%time%&c.'
+
+fast-pearl-name: '&6&lFast Pearl'
+fast-pearl-cooldown: 8
+
+Invalid-Pearl-Message: true
+Message: '&cInvalid Pearl'
+
+Invalid-Pearl-Remove-Timer: true
+
+Invalid-Pearl-Command: true
+Command: 'timer set EnderPearl %player% 0'
+
+Pearl-HitPlayers: true
+Pearl-Damage: true

@@ -1,0 +1,9 @@
+name: sPearls
+main: me.iNotLazo.VenunPearls.AntiPhase
+author: iNotLazo
+version: 10.0
+load: STARTUP
+commands:
+   spearls:
+     description: spearls command
+     aliases: [sensiblepearl]
